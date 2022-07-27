@@ -118,8 +118,8 @@
                   {{composer-title composer=model lastValidatedAt=lastValidatedAt focusTarget=focusTarget}}
 
                   {{#if model.showCategoryChooser}}
-                    <div class="category-input">
-                        <h3 class="category">Select Category</h3>
+                   <h3 class="category">Select Discussion</h3>
+                    <div class="category-input"> 
                       {{category-chooser
                         value=model.categoryId
                         onChange=(action (mut model.categoryId))
