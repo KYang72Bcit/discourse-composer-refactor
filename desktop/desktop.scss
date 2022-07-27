@@ -1,0 +1,44 @@
+.open.composer-action-createTopic.edit-title {
+    margin: 0!important;
+    max-width:unset!important;
+    height: 100vh!important;
+    width: 100vw!important;
+    z-index: 1000 !important;
+  }
+  
+  .d-editor-preview-wrapper,
+  .btn-flat.toggle-fullscreen,
+  .btn-flat.btn-mini-toggle.toggle-preview,
+  #reply-control .reply-to {
+    display: none;
+  }
+  
+  .title-and-category.with-preview {
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .d-editor-textarea-wrapper {
+    margin-bottom: 2rem;
+  }
+  
+  #reply-control .reply-area {
+    max-width: 70%;
+  }
+  
+  #reply-control .with-tags .category-input {
+    flex: unset;
+    width: 100%;
+    max-width: unset;
+  }
+  
+  #reply-control .mini-tag-chooser {
+    max-width: unset;
+    width: 100%;
+    margin-left: 0;
+  }
+  
+  #reply-control .mini-tag-chooser .select-kit-header {
+    border-radius: 4px;
+  }
+  
