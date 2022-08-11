@@ -1,4 +1,4 @@
 svg_icons:
-  default: 'fa-times'
+  default: 'fa-xmark'
   type: 'list'
   list_type: 'compact'
