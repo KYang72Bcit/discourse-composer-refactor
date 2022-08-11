@@ -19,3 +19,16 @@ div.title-and-category{
     
 
 }
+
+.reply-area {
+    position: relative;
+}
+
+.close-composer-btn {
+    border: none;
+    font-size: 1.5rem;
+    color: var(--primary);
+    position: absolute;
+    top: 0;
+    right: 0;
+}
