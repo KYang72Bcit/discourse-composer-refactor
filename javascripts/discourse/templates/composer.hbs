@@ -18,7 +18,7 @@
     {{#if model.viewOpenOrFullscreen}}
       <div role="form" aria-label={{I18n saveLabel}} class="reply-area {{if canEditTags "with-tags" "without-tags"}}">
         {{plugin-outlet name="composer-open" tagName="span" connectorTagName="div" args=(hash model=model)}}
-        <button data-ember-action  class="close-composer-btn cancel" data-ember-action-227="227">{{d-icon "fa-xmark"}}</button>
+        <button data-ember-action  class="close-composer-btn cancel" data-ember-action-227="227">{{d-icon "fa-x"}}</button>
 
 
         <div class="reply-to">
