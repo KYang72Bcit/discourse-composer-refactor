@@ -1,0 +1,4 @@
+svg_icons:
+  default: 'fa-x'
+  type: 'list'
+  list_type: 'compact'

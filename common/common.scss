@@ -19,3 +19,23 @@ div.title-and-category{
     
 
 }
+
+.reply-area {
+    position: relative;
+}
+
+.close-composer-btn {
+    border: none;
+    background-color: transparent;
+    font-size: 1.5rem;
+    color: var(--primary);
+    position: absolute;
+    line-height: normal;
+    color: var(--primary-high);
+    transition: color 250ms;
+    top: 0;
+    right: 0;
+    &:hover {
+        color: var(--danger);
+    }
+}
